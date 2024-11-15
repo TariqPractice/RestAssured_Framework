@@ -1,0 +1,32 @@
+[main] INFO  utility.RestFWLogger  - ********************************************************************
+[main] INFO  utility.RestFWLogger  - ********************************************************************
+[main] INFO  utility.RestFWLogger  - $$$$$$$$$$$$$$$$$$$$$$$REST_TEST01$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+[main] INFO  utility.RestFWLogger  - ********************************************************************
+[main] INFO  utility.RestFWLogger  - ********************************************************************
+[main] INFO  utility.RestFWLogger  - Creating rest assured object
+[main] INFO  utility.RestFWLogger  - Excel sheet opened
+[main] INFO  utility.RestFWLogger  - New object instantiaed
+[main] INFO  utility.RestFWLogger  - Implicit wait applied on the test for 10 seconds
+[main] INFO  utility.RestFWLogger  - URI Launched
+[main] INFO  utility.RestFWLogger  - Login successfull, and now it is time to log off
+[main] INFO  utility.RestFWLogger  - Action is performed on logout link
+[main] INFO  utility.RestFWLogger  - Test case closed
+[main] INFO  utility.RestFWLogger  - ***************************** E---N---D ***************************
+[main] INFO  utility.RestFWLogger  - ********************************************************************
+[main] INFO  utility.RestFWLogger  - 
+[main] INFO  utility.RestFWLogger  - 
+[main] INFO  utility.RestFWLogger  - ********************************************************************
+[main] INFO  utility.RestFWLogger  - ********************************************************************
+[main] INFO  utility.RestFWLogger  - $$$$$$$$$$$$$$$$$$$$$$$REST_TEST02$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+[main] INFO  utility.RestFWLogger  - ********************************************************************
+[main] INFO  utility.RestFWLogger  - ********************************************************************
+[main] INFO  utility.RestFWLogger  - Creating rest assured object
+[main] INFO  utility.RestFWLogger  - Excel sheet opened
+[main] INFO  utility.RestFWLogger  - New object instantiaed
+[main] INFO  utility.RestFWLogger  - Implicit wait applied on the test for 10 seconds
+[main] INFO  utility.RestFWLogger  - URI Launched
+[main] INFO  utility.RestFWLogger  - Test case closed
+[main] INFO  utility.RestFWLogger  - ***************************** E---N---D ***************************
+[main] INFO  utility.RestFWLogger  - ********************************************************************
+[main] INFO  utility.RestFWLogger  - 
+[main] INFO  utility.RestFWLogger  - 
