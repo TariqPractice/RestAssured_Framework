@@ -33,18 +33,37 @@ public class CommonUtilFunctions {
 	}
 	
 	public static int getStatusCode(Response response) {
-		
+		RestFWLogger.initLogger();
 		int statusCode = response.getStatusCode();
-		return statusCode;
+		RestFWLogger.info("Request response status code is "+statusCode);
+		return statusCode;		
 	}
 	
 	public static String getStatusMsg(Response response) {
-		
+		RestFWLogger.initLogger();
 		String statusMsg = response.getStatusLine();
+		RestFWLogger.info("Request response status message is "+statusMsg);
 		return statusMsg;
 	}
 
 	public static String getResponseHeader(Response response,String headerKey) {
-		return response.getHeader(headerKey);
+		RestFWLogger.initLogger();
+		String responseHeader= response.getHeader(headerKey);
+		RestFWLogger.info("Request response header key is -"+headerKey+" and value is - "+responseHeader);
+		return responseHeader;
+	}
+
+	public static String getResponseContentType(Response response) {
+		RestFWLogger.initLogger();
+		String contentType=response.getContentType();
+		RestFWLogger.info("Request response content type is -"+contentType);
+		return contentType;
+	}
+	
+	public static int getResponseExecutionTime(Response response) {
+		RestFWLogger.initLogger();
+		int executionTime=(int)response.getTime();
+		RestFWLogger.info("Request response execution time is -"+executionTime);
+		return executionTime;
 	}
 }

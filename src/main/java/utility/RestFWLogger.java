@@ -1,11 +1,16 @@
 package utility;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 
 public class RestFWLogger {//FW - FrameWork
 	
 	private static Logger log = Logger.getLogger(RestFWLogger.class.getName());
+	
+	public static void initLogger() {
+		PropertyConfigurator.configure("log4j.properties");
+	}
 	
 	public static void startTestCase(String sTestCaseName) {
 		log.info("********************************************************************");
