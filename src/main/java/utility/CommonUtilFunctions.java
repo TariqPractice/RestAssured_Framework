@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 
 public class CommonUtilFunctions {
 	
@@ -30,5 +31,20 @@ public class CommonUtilFunctions {
 		}
 		return getValue;
 	}
+	
+	public static int getStatusCode(Response response) {
+		
+		int statusCode = response.getStatusCode();
+		return statusCode;
+	}
+	
+	public static String getStatusMsg(Response response) {
+		
+		String statusMsg = response.getStatusLine();
+		return statusMsg;
+	}
 
+	public static String getResponseHeader(Response response,String headerKey) {
+		return response.getHeader(headerKey);
+	}
 }
