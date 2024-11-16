@@ -43,6 +43,14 @@ public class BaseClass {
 		Response response = requestSpecification.delete(requestURI);
 		return response;
 	}
+	
+	public static Response deleteRequest(String requestURI, String bearer_token) {
+		RequestSpecification requestSpecification = RestAssured.given();
+		requestSpecification.contentType(ContentType.JSON);
+		requestSpecification.header("Authorization", "Bearer "+bearer_token);
+		Response response = requestSpecification.delete(requestURI);
+		return response;
+	}
 
 	public static Response deleteRequestWithPayload(String requestURI, String requestPayload) {
 		RequestSpecification requestSpecification = RestAssured.given().body(requestPayload);

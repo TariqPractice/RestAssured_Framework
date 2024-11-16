@@ -83,5 +83,46 @@ public class CreateRepoTest {
 		
 		RestFWLogger.endTestCase();
 	}
+	@Test
+	public void deletRepo() throws IOException {
+		
+		PropertyConfigurator.configure("log4j.properties");
+		RestFWLogger.startTestCase("deletRepo");
+		RestFWLogger.info("Started delete Repo Test");
+
+		String requestPayload = PayloadGenerator.generateStringPayload("CreatRepo.json");
+		RestFWLogger.info("Request payload is "+requestPayload);
+
+		String deleteEndpoint = CreateURL.getBaseURI("/repos/tariqdummy/")+CommonUtilFunctions.getResponseKeyValue(requestPayload, "name");
+		
+		System.out.println("Delete endpoint : "+deleteEndpoint);
+		response = BaseClass.deleteRequest(deleteEndpoint,bearer_token);
+		String responseString= response.getBody().asString();
+		RestFWLogger.endTestCase();
+	}
 	
+	@Test
+	public void deletRepoPOJO() throws IOException {
+		
+		PropertyConfigurator.configure("log4j.properties");
+		RestFWLogger.startTestCase("deletRepoPOJO");
+		RestFWLogger.info("Started delete Repo Test");
+
+		CreateRepoPojo requestPayload = new CreateRepoPojo();
+		requestPayload.setName("API-testing-Restcalls7");
+		requestPayload.setDescription("Repository delete via POJO");
+		
+		mapper = new ObjectMapper();
+		String payload= mapper.writerWithDefaultPrettyPrinter().writeValueAsString(requestPayload);
+		RestFWLogger.info("Request Payload :"+payload);
+
+		String deleteEndpoint = CreateURL.getBaseURI("/repos/tariqdummy/")+requestPayload.getName();
+		
+		RestFWLogger.info("Delete endpoint : "+deleteEndpoint);
+		response = BaseClass.deleteRequest(deleteEndpoint,bearer_token);
+		String responseString= response.getBody().asString();
+		RestFWLogger.info(responseString);
+		RestFWLogger.endTestCase();
+		
+	}
 }

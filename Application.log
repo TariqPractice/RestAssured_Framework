@@ -38,3 +38,143 @@
 2024-11-15 22:52:08,119 INFO  -********************************************************************
 2024-11-15 22:52:08,119 INFO  -
 2024-11-15 22:52:08,119 INFO  -
+2024-11-16 11:28:14,387 INFO  -********************************************************************
+2024-11-16 11:28:14,388 INFO  -********************************************************************
+2024-11-16 11:28:14,389 INFO  -$$$$$$$$$$$$$$$$$$$$$$$createRepoTestCase$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+2024-11-16 11:28:14,389 INFO  -********************************************************************
+2024-11-16 11:28:14,389 INFO  -********************************************************************
+2024-11-16 11:28:14,389 INFO  -Started delete Repo Test
+2024-11-16 11:28:14,418 INFO  -Request payload is {
+	"name":"Api-testing-framework-9",
+	"description":"Repository created via postman call"
+}
+2024-11-16 11:30:41,855 INFO  -********************************************************************
+2024-11-16 11:30:41,855 INFO  -********************************************************************
+2024-11-16 11:30:41,855 INFO  -$$$$$$$$$$$$$$$$$$$$$$$createRepoTestCase$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+2024-11-16 11:30:41,856 INFO  -********************************************************************
+2024-11-16 11:30:41,856 INFO  -********************************************************************
+2024-11-16 11:30:41,856 INFO  -Started delete Repo Test
+2024-11-16 11:30:41,862 INFO  -Request payload is {
+	"name":"Api-testing-framework-9",
+	"description":"Repository created via postman call"
+}
+2024-11-16 11:34:31,794 INFO  -********************************************************************
+2024-11-16 11:34:31,795 INFO  -********************************************************************
+2024-11-16 11:34:31,795 INFO  -$$$$$$$$$$$$$$$$$$$$$$$createRepoTestCase$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+2024-11-16 11:34:31,795 INFO  -********************************************************************
+2024-11-16 11:34:31,795 INFO  -********************************************************************
+2024-11-16 11:34:31,795 INFO  -Started delete Repo Test
+2024-11-16 11:34:31,801 INFO  -Request payload is {
+	"name":"Api-testing-framework-9",
+	"description":"Repository created via postman call"
+}
+2024-11-16 11:38:22,334 INFO  -********************************************************************
+2024-11-16 11:38:22,334 INFO  -********************************************************************
+2024-11-16 11:38:22,334 INFO  -$$$$$$$$$$$$$$$$$$$$$$$createRepoTestCase$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+2024-11-16 11:38:22,334 INFO  -********************************************************************
+2024-11-16 11:38:22,334 INFO  -********************************************************************
+2024-11-16 11:38:22,334 INFO  -Started delete Repo Test
+2024-11-16 11:38:22,343 INFO  -Request payload is {
+	"name":"Api-testing-framework-9",
+	"description":"Repository created via postman call"
+}
+2024-11-16 11:38:47,319 INFO  -********************************************************************
+2024-11-16 11:38:47,319 INFO  -********************************************************************
+2024-11-16 11:38:47,319 INFO  -$$$$$$$$$$$$$$$$$$$$$$$createRepoTestCase$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+2024-11-16 11:38:47,319 INFO  -********************************************************************
+2024-11-16 11:38:47,320 INFO  -********************************************************************
+2024-11-16 11:38:47,320 INFO  -Started delete Repo Test
+2024-11-16 11:38:47,327 INFO  -Request payload is {
+	"name":"Api-testing-framework-9",
+	"description":"Repository created via postman call"
+}
+2024-11-16 11:45:05,492 INFO  -********************************************************************
+2024-11-16 11:45:05,494 INFO  -********************************************************************
+2024-11-16 11:45:05,494 INFO  -$$$$$$$$$$$$$$$$$$$$$$$deletRepoPOJO$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+2024-11-16 11:45:05,494 INFO  -********************************************************************
+2024-11-16 11:45:05,494 INFO  -********************************************************************
+2024-11-16 11:45:05,494 INFO  -Started delete Repo Test
+2024-11-16 11:45:05,939 INFO  -Request Payload :{
+  "name" : "API-testing-Restcalls7",
+  "description" : "Repository delete via POJO"
+}
+2024-11-16 11:45:05,939 INFO  -Delete endpoint : https://api.github.com/repos/tariqdummy/API-testing-Restcalls7
+2024-11-16 11:45:09,143 INFO  -
+2024-11-16 11:45:09,143 INFO  -***************************** E---N---D ***************************
+2024-11-16 11:45:09,143 INFO  -********************************************************************
+2024-11-16 11:45:09,143 INFO  -
+2024-11-16 11:45:09,143 INFO  -
+2024-11-16 11:46:10,774 INFO  -********************************************************************
+2024-11-16 11:46:10,776 INFO  -********************************************************************
+2024-11-16 11:46:10,776 INFO  -$$$$$$$$$$$$$$$$$$$$$$$createRepoTestCase$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+2024-11-16 11:46:10,776 INFO  -********************************************************************
+2024-11-16 11:46:10,776 INFO  -********************************************************************
+2024-11-16 11:46:10,776 INFO  -Started create Repo Test via POJO
+2024-11-16 11:46:10,776 INFO  -Request URI is https://api.github.com/user/repos
+2024-11-16 11:46:11,071 INFO  -Request Payload :{
+  "name" : "API-testing-Restcalls7",
+  "description" : "Repository created via rest assured test 2"
+}
+2024-11-16 11:46:14,615 INFO  -Response Payload :{"id":889348479,"node_id":"R_kgDONQJhfw","name":"API-testing-Restcalls7","full_name":"tariqdummy/API-testing-Restcalls7","private":false,"owner":{"login":"tariqdummy","id":187608345,"node_id":"U_kgDOCy6tGQ","avatar_url":"https://avatars.githubusercontent.com/u/187608345?v=4","gravatar_id":"","url":"https://api.github.com/users/tariqdummy","html_url":"https://github.com/tariqdummy","followers_url":"https://api.github.com/users/tariqdummy/followers","following_url":"https://api.github.com/users/tariqdummy/following{/other_user}","gists_url":"https://api.github.com/users/tariqdummy/gists{/gist_id}","starred_url":"https://api.github.com/users/tariqdummy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tariqdummy/subscriptions","organizations_url":"https://api.github.com/users/tariqdummy/orgs","repos_url":"https://api.github.com/users/tariqdummy/repos","events_url":"https://api.github.com/users/tariqdummy/events{/privacy}","received_events_url":"https://api.github.com/users/tariqdummy/received_events","type":"User","user_view_type":"public","site_admin":false},"html_url":"https://github.com/tariqdummy/API-testing-Restcalls7","description":"Repository created via rest assured test 2","fork":false,"url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7","forks_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/forks","keys_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/keys{/key_id}","collaborators_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/teams","hooks_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/hooks","issue_events_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/issues/events{/number}","events_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/events","assignees_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/assignees{/user}","branches_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/branches{/branch}","tags_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/tags","blobs_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/git/refs{/sha}","trees_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/git/trees{/sha}","statuses_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/statuses/{sha}","languages_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/languages","stargazers_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/stargazers","contributors_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/contributors","subscribers_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/subscribers","subscription_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/subscription","commits_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/commits{/sha}","git_commits_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/git/commits{/sha}","comments_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/comments{/number}","issue_comment_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/issues/comments{/number}","contents_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/contents/{+path}","compare_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/compare/{base}...{head}","merges_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/merges","archive_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/downloads","issues_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/issues{/number}","pulls_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/pulls{/number}","milestones_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/milestones{/number}","notifications_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/labels{/name}","releases_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/releases{/id}","deployments_url":"https://api.github.com/repos/tariqdummy/API-testing-Restcalls7/deployments","created_at":"2024-11-16T06:16:13Z","updated_at":"2024-11-16T06:16:14Z","pushed_at":"2024-11-16T06:16:14Z","git_url":"git://github.com/tariqdummy/API-testing-Restcalls7.git","ssh_url":"git@github.com:tariqdummy/API-testing-Restcalls7.git","clone_url":"https://github.com/tariqdummy/API-testing-Restcalls7.git","svn_url":"https://github.com/tariqdummy/API-testing-Restcalls7","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-11-16 11:46:15,539 INFO  -Assertion Repo name is done
+2024-11-16 11:46:15,539 INFO  -Name from Request - API-testing-Restcalls7
+2024-11-16 11:46:15,584 INFO  -Name from Response - API-testing-Restcalls7
+2024-11-16 11:46:15,616 INFO  -Assertion Repo description is done
+2024-11-16 11:46:15,617 INFO  -Description from Request - Repository created via rest assured test 2
+2024-11-16 11:46:15,649 INFO  -Description from Response - Repository created via rest assured test 2
+2024-11-16 11:46:15,649 INFO  -***************************** E---N---D ***************************
+2024-11-16 11:46:15,650 INFO  -********************************************************************
+2024-11-16 11:46:15,650 INFO  -
+2024-11-16 11:46:15,650 INFO  -
+2024-11-16 11:46:15,664 INFO  -********************************************************************
+2024-11-16 11:46:15,664 INFO  -********************************************************************
+2024-11-16 11:46:15,664 INFO  -$$$$$$$$$$$$$$$$$$$$$$$createRepositoryTestCase$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+2024-11-16 11:46:15,664 INFO  -********************************************************************
+2024-11-16 11:46:15,664 INFO  -********************************************************************
+2024-11-16 11:46:15,664 INFO  -Started create Repo Test
+2024-11-16 11:46:15,664 INFO  -Request URI is https://api.github.com/user/repos
+2024-11-16 11:46:15,667 INFO  -Request payload is {
+	"name":"Api-testing-framework-9",
+	"description":"Repository created via postman call"
+}
+2024-11-16 11:46:18,143 INFO  -Response is {"id":889348493,"node_id":"R_kgDONQJhjQ","name":"Api-testing-framework-9","full_name":"tariqdummy/Api-testing-framework-9","private":false,"owner":{"login":"tariqdummy","id":187608345,"node_id":"U_kgDOCy6tGQ","avatar_url":"https://avatars.githubusercontent.com/u/187608345?v=4","gravatar_id":"","url":"https://api.github.com/users/tariqdummy","html_url":"https://github.com/tariqdummy","followers_url":"https://api.github.com/users/tariqdummy/followers","following_url":"https://api.github.com/users/tariqdummy/following{/other_user}","gists_url":"https://api.github.com/users/tariqdummy/gists{/gist_id}","starred_url":"https://api.github.com/users/tariqdummy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tariqdummy/subscriptions","organizations_url":"https://api.github.com/users/tariqdummy/orgs","repos_url":"https://api.github.com/users/tariqdummy/repos","events_url":"https://api.github.com/users/tariqdummy/events{/privacy}","received_events_url":"https://api.github.com/users/tariqdummy/received_events","type":"User","user_view_type":"public","site_admin":false},"html_url":"https://github.com/tariqdummy/Api-testing-framework-9","description":"Repository created via postman call","fork":false,"url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9","forks_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/forks","keys_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/keys{/key_id}","collaborators_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/teams","hooks_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/hooks","issue_events_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/issues/events{/number}","events_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/events","assignees_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/assignees{/user}","branches_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/branches{/branch}","tags_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/tags","blobs_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/git/refs{/sha}","trees_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/git/trees{/sha}","statuses_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/statuses/{sha}","languages_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/languages","stargazers_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/stargazers","contributors_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/contributors","subscribers_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/subscribers","subscription_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/subscription","commits_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/commits{/sha}","git_commits_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/git/commits{/sha}","comments_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/comments{/number}","issue_comment_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/issues/comments{/number}","contents_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/contents/{+path}","compare_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/compare/{base}...{head}","merges_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/merges","archive_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/downloads","issues_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/issues{/number}","pulls_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/pulls{/number}","milestones_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/milestones{/number}","notifications_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/labels{/name}","releases_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/releases{/id}","deployments_url":"https://api.github.com/repos/tariqdummy/Api-testing-framework-9/deployments","created_at":"2024-11-16T06:16:17Z","updated_at":"2024-11-16T06:16:17Z","pushed_at":"2024-11-16T06:16:17Z","git_url":"git://github.com/tariqdummy/Api-testing-framework-9.git","ssh_url":"git@github.com:tariqdummy/Api-testing-framework-9.git","clone_url":"https://github.com/tariqdummy/Api-testing-framework-9.git","svn_url":"https://github.com/tariqdummy/Api-testing-framework-9","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-11-16 11:46:18,190 INFO  -Assertion Repo name is done
+2024-11-16 11:46:18,208 INFO  -Name from Request - Api-testing-framework-9
+2024-11-16 11:46:18,232 INFO  -Name from Response - Api-testing-framework-9
+2024-11-16 11:46:18,272 INFO  -Assertion Repo description is done
+2024-11-16 11:46:18,287 INFO  -Description from Request - Repository created via postman call
+2024-11-16 11:46:18,306 INFO  -Description from Response - Repository created via postman call
+2024-11-16 11:46:18,306 INFO  -***************************** E---N---D ***************************
+2024-11-16 11:46:18,306 INFO  -********************************************************************
+2024-11-16 11:46:18,306 INFO  -
+2024-11-16 11:46:18,306 INFO  -
+2024-11-16 11:46:18,314 INFO  -********************************************************************
+2024-11-16 11:46:18,314 INFO  -********************************************************************
+2024-11-16 11:46:18,315 INFO  -$$$$$$$$$$$$$$$$$$$$$$$deletRepo$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+2024-11-16 11:46:18,315 INFO  -********************************************************************
+2024-11-16 11:46:18,315 INFO  -********************************************************************
+2024-11-16 11:46:18,315 INFO  -Started delete Repo Test
+2024-11-16 11:46:18,315 INFO  -Request payload is {
+	"name":"Api-testing-framework-9",
+	"description":"Repository created via postman call"
+}
+2024-11-16 11:46:19,678 INFO  -***************************** E---N---D ***************************
+2024-11-16 11:46:19,678 INFO  -********************************************************************
+2024-11-16 11:46:19,678 INFO  -
+2024-11-16 11:46:19,678 INFO  -
+2024-11-16 11:46:19,687 INFO  -********************************************************************
+2024-11-16 11:46:19,687 INFO  -********************************************************************
+2024-11-16 11:46:19,687 INFO  -$$$$$$$$$$$$$$$$$$$$$$$deletRepoPOJO$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+2024-11-16 11:46:19,687 INFO  -********************************************************************
+2024-11-16 11:46:19,688 INFO  -********************************************************************
+2024-11-16 11:46:19,688 INFO  -Started delete Repo Test
+2024-11-16 11:46:19,690 INFO  -Request Payload :{
+  "name" : "API-testing-Restcalls7",
+  "description" : "Repository delete via POJO"
+}
+2024-11-16 11:46:19,691 INFO  -Delete endpoint : https://api.github.com/repos/tariqdummy/API-testing-Restcalls7
+2024-11-16 11:46:21,622 INFO  -
+2024-11-16 11:46:21,623 INFO  -***************************** E---N---D ***************************
+2024-11-16 11:46:21,623 INFO  -********************************************************************
+2024-11-16 11:46:21,623 INFO  -
+2024-11-16 11:46:21,623 INFO  -
